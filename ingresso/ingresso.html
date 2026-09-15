@@ -7,23 +7,30 @@
 </head>
 <body>
 
-    <a href="../index.html">
-        <img src="voltar.png" alt="voltar" width="32" height="32">
-    </a><br>
-      
-    <h1><b>Rock in Rio 2026</b></h1>
-    <p>Garanta já seu ingresso!</p>
-   
-    <form>
+    <header>
+        <h1><b>Rock in Rio 2026</b></h1>
+    </header>
+
+    <nav>
+        <a href="../index.html">Início</a> |
+        <a href="../programacao.html">Programação</a> |
+        <a href="../artistas.html">Artistas</a>
+    </nav>
+
+    <main>
+
+        <p>Garanta já seu ingresso!</p>
+
+        <form>
             <fieldset>
-                
+
                 <legend><strong>Dados do comprador</strong></legend>
 
                 <label for="nome"><strong>Nome*</strong></label><br>
                 <input type="text" id="nome" name="nome"><br>
-               
+
                 <label for="sobrenome"><strong>Sobrenome*</strong></label><br>
-                <input type="text" id="nome" name="nome"><br>
+                <input type="text" id="sobrenome" name="sobrenome"><br>
 
 
                 <label for="email"><strong>Email*</strong></label><br>
@@ -32,7 +39,7 @@
 
                 <label for="cpf"><strong>CPF*</strong></label><br>
                 <input type="text" id="cpf" name="cpf"><br>
-               
+
                 <label for="telefone"><strong>Telefone*</strong></label><br>
                 <input type="tel" id="telefone" name="telefone"><br>
 
@@ -43,16 +50,51 @@
 
                 <label for="dataEvento"><strong>Data do evento desejado*</strong></label><br>
                 <select id="dataEvento" name="dataEvento">
-
+ 
                     <option value="">Selecione</option>
-                    <option value="04-09">04/09/2026</option>
-                    <option value="05-09">05/09/2026</option>
-                    <option value="06-09">06/09/2026</option>
-                    <option value="07-09">07/09/2026</option>
-                    <option value="11-09">11/09/2026</option>
-                    <option value="12-09">12/09/2026</option>
-                    <option value="13-09">13/09/2026</option>
-
+ 
+                    <option value="04-09-16h00">04/09/2026 | 16h00 | Rock in Rio com Raissa Luz</option>
+                    <option value="04-09-16h40">04/09/2026 | 16h40 | Nova Twins</option>
+                    <option value="04-09-17h50">04/09/2026 | 17h50 | Detonautas & Biquini</option>
+                    <option value="04-09-20h10">04/09/2026 | 20h10 | Diogo Defante</option>
+                    <option value="04-09-00h05">04/09/2026 | 00h05 | Foo Fighters</option>
+ 
+                    <option value="05-09-15h30">05/09/2026 | 15h30 | Malvada & Day Limns</option>
+                    <option value="05-09-16h00">05/09/2026 | 16h00 | MC Taya</option>
+                    <option value="05-09-18h00">05/09/2026 | 18h00 | Lvcas</option>
+                    <option value="05-09-20h10">05/09/2026 | 20h10 | Poppy</option>
+                    <option value="05-09-00h05">05/09/2026 | 00h05 | Avenged Sevenfold</option>
+ 
+                    <option value="06-09-15h30">06/09/2026 | 15h30 | Calema</option>
+                    <option value="06-09-16h00">06/09/2026 | 16h00 | Bayside Kings</option>
+                    <option value="06-09-18h00">06/09/2026 | 18h00 | Matanza Ritual</option>
+                    <option value="06-09-20h10">06/09/2026 | 20h10 | Jota Quest</option>
+                    <option value="06-09-00h05">06/09/2026 | 00h05 | Calvin Harris</option>
+ 
+                    <option value="07-09-15h30">07/09/2026 | 15h30 | Vanessa da Mata & Rubel</option>
+                    <option value="07-09-16h40">07/09/2026 | 16h40 | Luísa Sonza & Roberto Menescal</option>
+                    <option value="07-09-18h00">07/09/2026 | 18h00 | Zeca Veloso</option>
+                    <option value="07-09-22h45">07/09/2026 | 22h45 | Laufey</option>
+                    <option value="07-09-00h05">07/09/2026 | 00h05 | Elton John</option>
+ 
+                    <option value="11-09-14h30">11/09/2026 | 14h30 | Muse Maya</option>
+                    <option value="11-09-16h40">11/09/2026 | 16h40 | NEXZ</option>
+                    <option value="11-09-17h50">11/09/2026 | 17h50 | Os Garotin & Duquesa</option>
+                    <option value="11-09-20h10">11/09/2026 | 20h10 | PJ Morton</option>
+                    <option value="11-09-00h05">11/09/2026 | 00h05 | Stray Kids</option>
+ 
+                    <option value="12-09-14h30">12/09/2026 | 14h30 | Celo Dut</option>
+                    <option value="12-09-15h30">12/09/2026 | 15h30 | Criolo, Amaro & Dino</option>
+                    <option value="12-09-16h00">12/09/2026 | 16h00 | Yago Oproprio</option>
+                    <option value="12-09-19h00">12/09/2026 | 19h00 | J Balvin</option>
+                    <option value="12-09-22h45">12/09/2026 | 22h45 | Mumford & Sons</option>
+ 
+                    <option value="13-09-16h00">13/09/2026 | 16h00 | Bruna Black</option>
+                    <option value="13-09-17h00">13/09/2026 | 17h00 | Ivete Sangalo</option>
+                    <option value="13-09-18h05">13/09/2026 | 18h05 | Joelma & Viviane Batidão</option>
+                    <option value="13-09-21h35">13/09/2026 | 21h35 | Halsey</option>
+                    <option value="13-09-22h50">13/09/2026 | 22h50 | Zara Larsson</option>
+ 
                 </select><br>
 
 
@@ -67,14 +109,14 @@
                 </select><br>
 
                 <label for="quantidade"><strong>Quantidade</strong></label><br>
-                <input 
+                <input
                 type="number"
                 id="quantidade"
                 name="quantidade"
                 min="1"
                 max="10"><br><br>
-                
-                <input 
+
+                <input
                 type="checkbox"
                 id="termos"
                 name="termos">
@@ -89,10 +131,10 @@
                     Limpar
                 </button>
             </fieldset>
-    </form><br>
+        </form><br>
 
-    
+    </main>
+
     <footer><i><u>Ingresso.html</u></i> - Feito por Thomás da Silva César</footer>
 </body>
 </html>
-   
